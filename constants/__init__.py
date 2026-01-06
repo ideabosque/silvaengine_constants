@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-from .framework import Framework
+from .framework import Deployment, ExecuteMode
 from .http import HttpStatus
 
 __all__ = [
     "HttpStatus",
-    "Framework",
+    "Deployment",
+    "ExecuteMode",
 ]
