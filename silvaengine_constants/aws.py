@@ -18,3 +18,10 @@ class EventType(Enum):
     EVENT_BRIDGE = 9
     CLOUDWATCH_LOG = 10
     UNKNOWN = 11
+
+
+@unique
+class InvocationType(Enum):
+    EVENT = "Event"
+    REQUEST_RESPONSE = "RequestResponse"
+    DRY_RUN = "DryRun"

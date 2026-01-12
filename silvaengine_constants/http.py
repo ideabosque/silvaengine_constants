@@ -7,12 +7,12 @@ from enum import Enum, unique
 
 @unique
 class HttpStatus(Enum):
-    # 1xx 信息响应
+    # 1xx
     CONTINUE = 100
     SWITCHING_PROTOCOLS = 101
     PROCESSING = 102
 
-    # 2xx 成功响应
+    # 2xx
     OK = 200
     CREATED = 201
     ACCEPTED = 202
@@ -21,7 +21,7 @@ class HttpStatus(Enum):
     RESET_CONTENT = 205
     PARTIAL_CONTENT = 206
 
-    # 3xx 重定向响应
+    # 3xx
     MOVED_PERMANENTLY = 301
     FOUND = 302
     SEE_OTHER = 303
@@ -29,7 +29,7 @@ class HttpStatus(Enum):
     TEMPORARY_REDIRECT = 307
     PERMANENT_REDIRECT = 308
 
-    # 4xx 客户端错误
+    # 4xx
     BAD_REQUEST = 400
     UNAUTHORIZED = 401
     PAYMENT_REQUIRED = 402
@@ -40,7 +40,7 @@ class HttpStatus(Enum):
     REQUEST_TIMEOUT = 408
     CONFLICT = 409
 
-    # 5xx 服务器错误
+    # 5xx
     INTERNAL_SERVER_ERROR = 500
     NOT_IMPLEMENTED = 501
     BAD_GATEWAY = 502

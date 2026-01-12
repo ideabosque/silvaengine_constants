@@ -32,3 +32,9 @@ class RequestMethod(Enum):
     PATCH = 4
     DELETE = 5
     HEAD = 6
+
+
+@unique
+class AuthorizationAction(Enum):
+    AUTHORIZE = 1
+    VERIFY_PERMISSION = 2
