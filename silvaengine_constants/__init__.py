@@ -3,6 +3,7 @@
 from __future__ import print_function
 
 from .aws import EventType, InvocationType
+from .discount_promp import DiscountPromptScope, DiscountPromptStatus
 from .framework import (
     AuthorizationAction,
     AuthorizationType,
@@ -23,4 +24,6 @@ __all__ = [
     "InvocationType",
     "AuthorizationAction",
     "SwitchStatus",
+    "DiscountPromptStatus",
+    "DiscountPromptScope",
 ]
