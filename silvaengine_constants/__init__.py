@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
+from .ai import AgentType
 from .aws import EventType, InvocationType
 from .discount_promp import DiscountPromptScope, DiscountPromptStatus
 from .framework import (
@@ -26,4 +27,5 @@ __all__ = [
     "SwitchStatus",
     "DiscountPromptStatus",
     "DiscountPromptScope",
+    "AgentType",
 ]
