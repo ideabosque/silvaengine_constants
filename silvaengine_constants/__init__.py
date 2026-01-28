@@ -10,8 +10,10 @@ from .framework import (
     AuthorizationType,
     Deployment,
     ExecuteMode,
+    NamingConvention,
     RequestMethod,
 )
+from .graphql import OperationType
 from .http import HttpStatus
 from .status import SwitchStatus
 
@@ -28,4 +30,6 @@ __all__ = [
     "DiscountPromptStatus",
     "DiscountPromptScope",
     "AgentType",
+    "NamingConvention",
+    "OperationType",
 ]
