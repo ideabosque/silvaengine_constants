@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from __future__ import print_function
-
 from enum import Enum, unique
 
 
@@ -38,3 +36,9 @@ class RequestMethod(Enum):
 class AuthorizationAction(Enum):
     AUTHORIZE = 1
     VERIFY_PERMISSION = 2
+
+
+@unique
+class NamingConvention(Enum):
+    CAMEL = 0
+    SNAKE = 1
