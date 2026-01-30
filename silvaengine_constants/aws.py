@@ -9,6 +9,7 @@ from .base import BaseEnum
 
 @unique
 class EventType(BaseEnum):
+    UNKNOWN = 0
     HTTP_API = 1
     REST_API = 2
     WEBSOCKET = 3
@@ -19,7 +20,7 @@ class EventType(BaseEnum):
     COGNITO = 8
     EVENT_BRIDGE = 9
     CLOUDWATCH_LOG = 10
-    UNKNOWN = 11
+    LAMBDA_INVOKE = 11
 
 
 @unique
