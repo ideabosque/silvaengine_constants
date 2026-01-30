@@ -4,9 +4,11 @@ from __future__ import print_function
 
 from enum import Enum, unique
 
+from .base import BaseEnum
+
 
 @unique
-class EventType(Enum):
+class EventType(BaseEnum):
     HTTP_API = 1
     REST_API = 2
     WEBSOCKET = 3
