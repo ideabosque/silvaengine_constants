@@ -20,7 +20,7 @@ class EventType(BaseEnum):
     COGNITO = 8
     EVENT_BRIDGE = 9
     CLOUDWATCH_LOG = 10
-    LAMBDA_INVOKE = 11
+    LAMBDA_INVOCATION = 11
 
 
 @unique
