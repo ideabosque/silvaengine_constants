@@ -9,3 +9,10 @@ from enum import Enum, unique
 class AgentType(Enum):
     TRIAGE = "triage"
     TASK = "task"
+
+
+@unique
+class LLMUserRole(Enum):
+    DEVELOPER = "developer"
+    ASSISTANT = "assistant"
+    TOOL = "tool"
